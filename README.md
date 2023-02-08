@@ -6,11 +6,8 @@
 
 **Benefits**
 
-Rapid Delivery
-
-Configurable Workflow
-
-Fully Managed
-
-Easy Integration with AWS services or Third Party Tools
+- Rapid Delivery
+- Configurable Workflow
+- Fully Managed
+- Easy Integration with AWS services or Third Party Tools
 
