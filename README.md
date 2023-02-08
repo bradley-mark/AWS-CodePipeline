@@ -9,5 +9,5 @@
 - Rapid Delivery
 - Configurable Workflow
 - Fully Managed
-- Easy Integration with AWS services or Third Party Tools
+- Easy Integration with AWS services or Third Party Tools (Jenkins, GitHub etc)
 
