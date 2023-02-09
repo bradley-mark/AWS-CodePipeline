@@ -4,6 +4,8 @@
 - **Model, visualize and automate the steps required to release your software**
 - **Service to orchestrate all the DevOps components together**
 
+![image](https://user-images.githubusercontent.com/91480603/217881608-5d861524-06cb-43c5-be37-5a0fce994883.png)
+
 **Benefits**
 
 - Rapid Delivery
