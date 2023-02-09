@@ -54,4 +54,18 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 
 # Configure CodePipeline
 
+1. Open CodePipeline console **https://console.aws.amazon.com/codesuite/codepipeline**
+2. **Create pipeline**
+3. Pipeline name **s3cft-demo-pipeline**
+4. Select **Existing service role** **codepipeline_demo_role**
+
+![image](https://user-images.githubusercontent.com/91480603/217866748-8379133e-a838-483e-8125-820bbbffea35.png)
+
+5. Source provider - **GitHub** <Authorize Access>
+
+![image](https://user-images.githubusercontent.com/91480603/217868829-d5aa0da5-dfeb-44fb-8466-3a5bb3ae7b24.png)
+![image](https://user-images.githubusercontent.com/91480603/217869070-b290a42f-3851-44f4-a9bf-0ef847b277ff.png)
+
+
+
 
