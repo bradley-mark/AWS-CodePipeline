@@ -17,7 +17,7 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 
 ![image](https://user-images.githubusercontent.com/91480603/217857715-e41934c1-b3a2-456f-b4f7-07436e5e0051.png)
 
-**Create Service Roles**
+# IAM - Create Service Roles
 
 **CodePipeline role**
 
@@ -35,18 +35,23 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 9. Click Permissions - Add permissions - Create inline policy - JSON
 10. Copy/paste custome JSON policy
 11. **Review policy**
-12. **Name** custom_codepipeline_policy_v2
+12. Name **custom_codepipeline_policy_v2**
 13. **Create policy**
 14. **Trust relationships** **Edit Policy** change service from ec2 to codepipeline
 
 ![image](https://user-images.githubusercontent.com/91480603/217862373-9125e61e-ba92-4669-a21c-4916c8595c32.png)
 
 15. **Update policy**
+16. **Create role**
 
 **CloudFormation role**
 
+1. Create role
+2. Trusted entity service - AWS service - **CloudFormation** **Next**
+3. Add permissions - **AmazonS3FullAccess** **N ext**
+4. Role name **cloudformation_s3_role**
+5. **Create role**
 
-
-
+# Configure CodePipeline
 
 
