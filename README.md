@@ -13,3 +13,8 @@
 
 # Deploy CloudFormation using AWS CodePipeline
 
+Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of bucket
+
+![image](https://user-images.githubusercontent.com/91480603/217857715-e41934c1-b3a2-456f-b4f7-07436e5e0051.png)
+
+1. 
