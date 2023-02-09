@@ -13,7 +13,7 @@
 
 # Deploy CloudFormation using AWS CodePipeline
 
-Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of bucket
+Simple CloudFormation **simplests3cft.json** create S3 bucket and outputs name of bucket
 
 ![image](https://user-images.githubusercontent.com/91480603/217857715-e41934c1-b3a2-456f-b4f7-07436e5e0051.png)
 
@@ -82,7 +82,7 @@ CodePipeline automatically creates the webhooks in GitHub - Any changes in GitHu
 - Action mode: **Create or update stack**
 - Stack name: **s3democodepipelinestack**
 - Artifact name: **SourceArtifact**
-- File name: **simplets3cft.json**
+- File name: **simplests3cft.json**
 - Role name: **cloudformation_s3_role**
 
 **Next**
@@ -93,5 +93,5 @@ CodePipeline automatically creates the webhooks in GitHub - Any changes in GitHu
   
 ![image](https://user-images.githubusercontent.com/91480603/217872800-44b6e2ae-929c-47f6-ba9e-fb9b45bbe620.png)
 
-  
+
 
