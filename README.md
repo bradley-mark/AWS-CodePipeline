@@ -24,7 +24,7 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 1. IAM Console
 2. Create role
 3. Trusted entity service - **AWS service** - No CodePipeline - select **EC2** to edit
-4. Add permissions - **Next*
+4. Add permissions - **Next**
 5. Role name **codepipeline_demo_service_role**
 6. Change **Description** to **Allows CodePipeline...**
 7. **Create role**
@@ -47,8 +47,8 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 **CloudFormation role**
 
 1. Create role
-2. Trusted entity service - AWS service - **CloudFormation** **Next**
-3. Add permissions - **AmazonS3FullAccess** **N ext**
+2. Trusted entity service - AWS service - **CloudFormation**
+3. Add permissions - **AmazonS3FullAccess**
 4. Role name **cloudformation_s3_role**
 5. **Create role**
 
