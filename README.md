@@ -66,6 +66,15 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 ![image](https://user-images.githubusercontent.com/91480603/217868829-d5aa0da5-dfeb-44fb-8466-3a5bb3ae7b24.png)
 ![image](https://user-images.githubusercontent.com/91480603/217869070-b290a42f-3851-44f4-a9bf-0ef847b277ff.png)
 
+![image](https://user-images.githubusercontent.com/91480603/217869592-0ac3023f-6869-40d7-a811-2d220d8c6ac8.png)
+
+6. Select GitHub webhooks
+  
+![image](https://user-images.githubusercontent.com/91480603/217869785-65393c00-8daa-4027-81fb-e0671e6e9e8c.png)
+
+CodePipeline automatically creates the webhooks in GitHub - Any changes in GiyHub will be automaticcally submitted to CodePipeline
+  
+
 
 
 
