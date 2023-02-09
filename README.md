@@ -11,3 +11,5 @@
 - Fully Managed
 - Easy Integration with AWS services or Third Party Tools (Jenkins, GitHub etc)
 
+# Deploy CloudFormation using AWS CodePipeline
+
