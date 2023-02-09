@@ -89,4 +89,9 @@ CodePipeline automatically creates the webhooks in GitHub - Any changes in GitHu
 
 ![image](https://user-images.githubusercontent.com/91480603/217872221-73b3c749-9982-45ff-9a55-6cf36195e62b.png)
 
+9. Review - **Create pipeline**
   
+![image](https://user-images.githubusercontent.com/91480603/217872800-44b6e2ae-929c-47f6-ba9e-fb9b45bbe620.png)
+
+  
+
