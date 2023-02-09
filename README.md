@@ -78,7 +78,7 @@ CodePipeline automatically creates the webhooks in GitHub - Any changes in GitHu
 
 8. Add deploy stage 
 
-- **AWS CloudFormation**
+- Deploy provider: **AWS CloudFormation**
 - Action mode: **Create or update stack**
 - Stack name: **s3democodepipelinestack**
 - Artifact name: **SourceArtifact**
