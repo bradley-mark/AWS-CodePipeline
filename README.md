@@ -74,7 +74,19 @@ Simple CloudFormation **simplets3cft.json** create S3 bucket and outputs name of
 
 CodePipeline automatically creates the webhooks in GitHub - Any changes in GitHub will be automatically submitted to CodePipeline
   
+7. **Next** Add Build stage - Skip build stage - Skip
 
+8. Add deploy stage 
 
+- **AWS CloudFormation**
+- Action mode: **Create or update stack**
+- Stack name: **s3democodepipelinestack**
+- Artifact name: **SourceArtifact**
+- File name: **simplets3cft.json**
+- Role name: **cloudformation_s3_role**
 
+**Next**
 
+![image](https://user-images.githubusercontent.com/91480603/217872221-73b3c749-9982-45ff-9a55-6cf36195e62b.png)
+
+  
